@@ -1,0 +1,56 @@
+body{
+    background: url('images/edit-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con1{
+    background-color: white;
+    width: 400px;
+    height:600px;
+    position: relative;
+    left:850px;
+    border:1px solid hotpink;
+    border-radius: 20px;
+    text-align: center;
+}
+.con1:hover{
+    box-shadow: 0px 10px 10px blue;
+}
+
+h1{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 55px;
+    color:blue;
+    font-family: cursive;
+}
+h2{
+    
+    font-weight: 900;
+    font-size: 35px;
+    color:hotpink;
+    font-family: cursive;
+}
+button,input[type="submit"]{
+    width:150px;
+    height:50px;
+    color:white;
+    background-color: hotpink;
+    font-size: 20px;
+    border-radius: 30px;
+}
+button:hover,input[type="submit"]:hover{
+    box-shadow: 0px 5px 10px black;
+}
+hr{
+    color:blue;
+}
+input{
+    width:80%;
+    height:40px;
+
+}
+label{
+    font-size: 20px;
+    color: rgb(235, 116, 152);
+}

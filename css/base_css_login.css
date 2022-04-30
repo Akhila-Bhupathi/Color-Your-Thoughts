@@ -1,0 +1,23 @@
+h2 {
+  color: royalblue;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2.5px 2.5px gray;
+}
+
+body {
+  background: url("https://previews.123rf.com/images/kshavratskaya/kshavratskaya1712/kshavratskaya171201025/92394272-artist-s-workshop-canvas-paint-brushes-palette-knife-lying-on-the-table-art-tools-artist-workplace-b.jpg");
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+form {
+  background-color: white;
+  margin: 50px 530px;
+  border: 2px solid rgb(153, 151, 151);
+  border-radius: 15px;
+  width: 300px;
+  height: 375px;
+  box-shadow: 0px 18px 12px 0px gray;
+}

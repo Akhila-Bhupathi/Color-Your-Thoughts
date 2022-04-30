@@ -1,0 +1,64 @@
+.paintings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .painting img {
+    height: 30px;
+    width: 30px;
+
+  }
+  .paint img {
+    height: 280px;
+    width: 280px;
+    
+  }
+  .painting {
+    padding: 15px;
+    border: 2px solid hotpink;
+    position: relative;
+    padding-bottom: 40px;
+  }
+  .painting .artist {
+    padding: 10px;
+    background-color: hotpink;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #0f121f;
+  }
+  #back,#add {
+    background-color: hotpink;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    color: white;
+  }
+ .header h1{
+        color:hotpink;
+        font-weight: 800;
+        font-size: 50px;
+        font-style: italic;
+        text-align:center;
+    }
+    .header h2{
+        color:blue;
+        text-align:right;
+        font-style: italic;
+    }
+    .header h4{
+        color:hotpink;
+        text-align:center;
+        font-style: italic;
+    }
+    #add{
+        float:right;
+    }
+    .painting:hover{
+        box-shadow: 10px 10px 10px blue;
+    }
+    button:hover{
+        box-shadow: 10px 10px 10px black;
+    }
